@@ -7,44 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940327902A7E41AE00964161 /* DetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9403278F2A7E41AE00964161 /* DetailsScreen.swift */; };
+		940327932A7E429D00964161 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940327922A7E429D00964161 /* CircleButton.swift */; };
 		9426D44E29F7D064000F4168 /* kidsappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426D44D29F7D064000F4168 /* kidsappApp.swift */; };
-		9426D45029F7D064000F4168 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426D44F29F7D064000F4168 /* ContentView.swift */; };
+		9426D45029F7D064000F4168 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426D44F29F7D064000F4168 /* HomeScreen.swift */; };
 		9426D45229F7D067000F4168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9426D45129F7D067000F4168 /* Assets.xcassets */; };
-		9426D45629F7D067000F4168 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9426D45529F7D067000F4168 /* Preview Assets.xcassets */; };
-		9426D46029F7D067000F4168 /* kidsappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426D45F29F7D067000F4168 /* kidsappTests.swift */; };
-		9426D46A29F7D067000F4168 /* kidsappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426D46929F7D067000F4168 /* kidsappUITests.swift */; };
-		9426D46C29F7D067000F4168 /* kidsappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426D46B29F7D067000F4168 /* kidsappUITestsLaunchTests.swift */; };
+		94860FD32A01B3DC00F18FA0 /* Preview Content.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94860FD22A01B3DC00F18FA0 /* Preview Content.xcassets */; };
+		9499822E2A01ADB70049E2BA /* StrokeTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9499822D2A01ADB70049E2BA /* StrokeTextLabel.swift */; };
+		94D6411129FC180100FD28BE /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D6411029FC180100FD28BE /* GroupModel.swift */; };
+		94D6411329FC181600FD28BE /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D6411229FC181600FD28BE /* ItemModel.swift */; };
+		94D6411529FC18A300FD28BE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D6411429FC18A300FD28BE /* DataManager.swift */; };
+		94E78EB42A6938C80023FA86 /* ACarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E78EAF2A6938C80023FA86 /* ACarouselViewModel.swift */; };
+		94E78EB52A6938C80023FA86 /* ACarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E78EB02A6938C80023FA86 /* ACarousel.swift */; };
+		94E78EB62A6938C80023FA86 /* View+ReceiveTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E78EB12A6938C80023FA86 /* View+ReceiveTimer.swift */; };
+		94E78EB72A6938C80023FA86 /* ACarouselAutoScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E78EB22A6938C80023FA86 /* ACarouselAutoScroll.swift */; };
+		94E78EB82A6938C80023FA86 /* AppLifeCycleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E78EB32A6938C80023FA86 /* AppLifeCycleModifier.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9426D45C29F7D067000F4168 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9426D44229F7D064000F4168 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9426D44929F7D064000F4168;
-			remoteInfo = kidsapp;
-		};
-		9426D46629F7D067000F4168 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9426D44229F7D064000F4168 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9426D44929F7D064000F4168;
-			remoteInfo = kidsapp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		9403278F2A7E41AE00964161 /* DetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreen.swift; sourceTree = "<group>"; };
+		940327922A7E429D00964161 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		9426D44A29F7D064000F4168 /* kidsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9426D44D29F7D064000F4168 /* kidsappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidsappApp.swift; sourceTree = "<group>"; };
-		9426D44F29F7D064000F4168 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9426D44F29F7D064000F4168 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		9426D45129F7D067000F4168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9426D45329F7D067000F4168 /* kidsapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kidsapp.entitlements; sourceTree = "<group>"; };
-		9426D45529F7D067000F4168 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9426D45B29F7D067000F4168 /* kidsappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kidsappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9426D45F29F7D067000F4168 /* kidsappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidsappTests.swift; sourceTree = "<group>"; };
-		9426D46529F7D067000F4168 /* kidsappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kidsappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9426D46929F7D067000F4168 /* kidsappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidsappUITests.swift; sourceTree = "<group>"; };
-		9426D46B29F7D067000F4168 /* kidsappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidsappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94860FD22A01B3DC00F18FA0 /* Preview Content.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Content.xcassets"; sourceTree = "<group>"; };
+		9499822D2A01ADB70049E2BA /* StrokeTextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeTextLabel.swift; sourceTree = "<group>"; };
+		94D6411029FC180100FD28BE /* GroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
+		94D6411229FC181600FD28BE /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		94D6411429FC18A300FD28BE /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		94E78EAF2A6938C80023FA86 /* ACarouselViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACarouselViewModel.swift; sourceTree = "<group>"; };
+		94E78EB02A6938C80023FA86 /* ACarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACarousel.swift; sourceTree = "<group>"; };
+		94E78EB12A6938C80023FA86 /* View+ReceiveTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+ReceiveTimer.swift"; sourceTree = "<group>"; };
+		94E78EB22A6938C80023FA86 /* ACarouselAutoScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACarouselAutoScroll.swift; sourceTree = "<group>"; };
+		94E78EB32A6938C80023FA86 /* AppLifeCycleModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLifeCycleModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,29 +52,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9426D45829F7D067000F4168 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9426D46229F7D067000F4168 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		940327912A7E429000964161 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				940327922A7E429D00964161 /* CircleButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		940327942A7E434D00964161 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9426D44F29F7D064000F4168 /* HomeScreen.swift */,
+				9403278F2A7E41AE00964161 /* DetailsScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		9426D44129F7D064000F4168 = {
 			isa = PBXGroup;
 			children = (
+				94860FD22A01B3DC00F18FA0 /* Preview Content.xcassets */,
 				9426D44C29F7D064000F4168 /* kidsapp */,
-				9426D45E29F7D067000F4168 /* kidsappTests */,
-				9426D46829F7D067000F4168 /* kidsappUITests */,
 				9426D44B29F7D064000F4168 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				9426D44A29F7D064000F4168 /* kidsapp.app */,
-				9426D45B29F7D067000F4168 /* kidsappTests.xctest */,
-				9426D46529F7D067000F4168 /* kidsappUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,38 +92,62 @@
 		9426D44C29F7D064000F4168 /* kidsapp */ = {
 			isa = PBXGroup;
 			children = (
+				94860FD12A01B25500F18FA0 /* CustomLibs */,
+				94860FD02A01B24200F18FA0 /* Assets */,
+				94860FCF2A01B23B00F18FA0 /* App */,
+				94D6410F29FC17F200FD28BE /* Data */,
 				9426D44D29F7D064000F4168 /* kidsappApp.swift */,
-				9426D44F29F7D064000F4168 /* ContentView.swift */,
-				9426D45129F7D067000F4168 /* Assets.xcassets */,
 				9426D45329F7D067000F4168 /* kidsapp.entitlements */,
-				9426D45429F7D067000F4168 /* Preview Content */,
 			);
 			path = kidsapp;
 			sourceTree = "<group>";
 		};
-		9426D45429F7D067000F4168 /* Preview Content */ = {
+		94860FCF2A01B23B00F18FA0 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				9426D45529F7D067000F4168 /* Preview Assets.xcassets */,
+				940327942A7E434D00964161 /* Screens */,
+				940327912A7E429000964161 /* Views */,
 			);
-			path = "Preview Content";
+			path = App;
 			sourceTree = "<group>";
 		};
-		9426D45E29F7D067000F4168 /* kidsappTests */ = {
+		94860FD02A01B24200F18FA0 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				9426D45F29F7D067000F4168 /* kidsappTests.swift */,
+				9426D45129F7D067000F4168 /* Assets.xcassets */,
 			);
-			path = kidsappTests;
+			path = Assets;
 			sourceTree = "<group>";
 		};
-		9426D46829F7D067000F4168 /* kidsappUITests */ = {
+		94860FD12A01B25500F18FA0 /* CustomLibs */ = {
 			isa = PBXGroup;
 			children = (
-				9426D46929F7D067000F4168 /* kidsappUITests.swift */,
-				9426D46B29F7D067000F4168 /* kidsappUITestsLaunchTests.swift */,
+				94E78EAE2A6938C80023FA86 /* ACarousel */,
+				9499822D2A01ADB70049E2BA /* StrokeTextLabel.swift */,
 			);
-			path = kidsappUITests;
+			path = CustomLibs;
+			sourceTree = "<group>";
+		};
+		94D6410F29FC17F200FD28BE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				94D6411029FC180100FD28BE /* GroupModel.swift */,
+				94D6411229FC181600FD28BE /* ItemModel.swift */,
+				94D6411429FC18A300FD28BE /* DataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		94E78EAE2A6938C80023FA86 /* ACarousel */ = {
+			isa = PBXGroup;
+			children = (
+				94E78EAF2A6938C80023FA86 /* ACarouselViewModel.swift */,
+				94E78EB02A6938C80023FA86 /* ACarousel.swift */,
+				94E78EB12A6938C80023FA86 /* View+ReceiveTimer.swift */,
+				94E78EB22A6938C80023FA86 /* ACarouselAutoScroll.swift */,
+				94E78EB32A6938C80023FA86 /* AppLifeCycleModifier.swift */,
+			);
+			path = ACarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,45 +166,11 @@
 			dependencies = (
 			);
 			name = kidsapp;
+			packageProductDependencies = (
+			);
 			productName = kidsapp;
 			productReference = 9426D44A29F7D064000F4168 /* kidsapp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9426D45A29F7D067000F4168 /* kidsappTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9426D47229F7D067000F4168 /* Build configuration list for PBXNativeTarget "kidsappTests" */;
-			buildPhases = (
-				9426D45729F7D067000F4168 /* Sources */,
-				9426D45829F7D067000F4168 /* Frameworks */,
-				9426D45929F7D067000F4168 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9426D45D29F7D067000F4168 /* PBXTargetDependency */,
-			);
-			name = kidsappTests;
-			productName = kidsappTests;
-			productReference = 9426D45B29F7D067000F4168 /* kidsappTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9426D46429F7D067000F4168 /* kidsappUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9426D47529F7D067000F4168 /* Build configuration list for PBXNativeTarget "kidsappUITests" */;
-			buildPhases = (
-				9426D46129F7D067000F4168 /* Sources */,
-				9426D46229F7D067000F4168 /* Frameworks */,
-				9426D46329F7D067000F4168 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9426D46729F7D067000F4168 /* PBXTargetDependency */,
-			);
-			name = kidsappUITests;
-			productName = kidsappUITests;
-			productReference = 9426D46529F7D067000F4168 /* kidsappUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,14 +185,6 @@
 					9426D44929F7D064000F4168 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					9426D45A29F7D067000F4168 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 9426D44929F7D064000F4168;
-					};
-					9426D46429F7D067000F4168 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 9426D44929F7D064000F4168;
-					};
 				};
 			};
 			buildConfigurationList = 9426D44529F7D064000F4168 /* Build configuration list for PBXProject "kidsapp" */;
@@ -217,13 +196,13 @@
 				Base,
 			);
 			mainGroup = 9426D44129F7D064000F4168;
+			packageReferences = (
+			);
 			productRefGroup = 9426D44B29F7D064000F4168 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9426D44929F7D064000F4168 /* kidsapp */,
-				9426D45A29F7D067000F4168 /* kidsappTests */,
-				9426D46429F7D067000F4168 /* kidsappUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,22 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9426D45629F7D067000F4168 /* Preview Assets.xcassets in Resources */,
 				9426D45229F7D067000F4168 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9426D45929F7D067000F4168 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9426D46329F7D067000F4168 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				94860FD32A01B3DC00F18FA0 /* Preview Content.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,42 +224,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9426D45029F7D064000F4168 /* ContentView.swift in Sources */,
+				9426D45029F7D064000F4168 /* HomeScreen.swift in Sources */,
+				940327902A7E41AE00964161 /* DetailsScreen.swift in Sources */,
+				94E78EB52A6938C80023FA86 /* ACarousel.swift in Sources */,
+				94D6411529FC18A300FD28BE /* DataManager.swift in Sources */,
 				9426D44E29F7D064000F4168 /* kidsappApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9426D45729F7D067000F4168 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9426D46029F7D067000F4168 /* kidsappTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9426D46129F7D067000F4168 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9426D46A29F7D067000F4168 /* kidsappUITests.swift in Sources */,
-				9426D46C29F7D067000F4168 /* kidsappUITestsLaunchTests.swift in Sources */,
+				94E78EB42A6938C80023FA86 /* ACarouselViewModel.swift in Sources */,
+				94E78EB72A6938C80023FA86 /* ACarouselAutoScroll.swift in Sources */,
+				94E78EB82A6938C80023FA86 /* AppLifeCycleModifier.swift in Sources */,
+				94E78EB62A6938C80023FA86 /* View+ReceiveTimer.swift in Sources */,
+				94D6411329FC181600FD28BE /* ItemModel.swift in Sources */,
+				940327932A7E429D00964161 /* CircleButton.swift in Sources */,
+				94D6411129FC180100FD28BE /* GroupModel.swift in Sources */,
+				9499822E2A01ADB70049E2BA /* StrokeTextLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9426D45D29F7D067000F4168 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9426D44929F7D064000F4168 /* kidsapp */;
-			targetProxy = 9426D45C29F7D067000F4168 /* PBXContainerItemProxy */;
-		};
-		9426D46729F7D067000F4168 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9426D44929F7D064000F4168 /* kidsapp */;
-			targetProxy = 9426D46629F7D067000F4168 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9426D46D29F7D067000F4168 /* Debug */ = {
@@ -414,7 +360,6 @@
 				CODE_SIGN_ENTITLEMENTS = kidsapp/kidsapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"kidsapp/Preview Content\"";
 				DEVELOPMENT_TEAM = CV7W54NWGZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -427,8 +372,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -452,7 +397,6 @@
 				CODE_SIGN_ENTITLEMENTS = kidsapp/kidsapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"kidsapp/Preview Content\"";
 				DEVELOPMENT_TEAM = CV7W54NWGZ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -465,8 +409,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -479,96 +423,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9426D47329F7D067000F4168 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CV7W54NWGZ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeinindia.kidsappTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kidsapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kidsapp";
-			};
-			name = Debug;
-		};
-		9426D47429F7D067000F4168 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CV7W54NWGZ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeinindia.kidsappTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kidsapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kidsapp";
-			};
-			name = Release;
-		};
-		9426D47629F7D067000F4168 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CV7W54NWGZ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeinindia.kidsappUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = kidsapp;
-			};
-			name = Debug;
-		};
-		9426D47729F7D067000F4168 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CV7W54NWGZ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeinindia.kidsappUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = kidsapp;
 			};
 			name = Release;
 		};
@@ -589,24 +443,6 @@
 			buildConfigurations = (
 				9426D47029F7D067000F4168 /* Debug */,
 				9426D47129F7D067000F4168 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9426D47229F7D067000F4168 /* Build configuration list for PBXNativeTarget "kidsappTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9426D47329F7D067000F4168 /* Debug */,
-				9426D47429F7D067000F4168 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9426D47529F7D067000F4168 /* Build configuration list for PBXNativeTarget "kidsappUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9426D47629F7D067000F4168 /* Debug */,
-				9426D47729F7D067000F4168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
